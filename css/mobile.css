@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (max-width: 1200px){
+	.topslider .text h2{
+		font-size: 1.7em;
+	}
+}
+
+@media (max-width: 960px){
+	/*スライドショー*/
+	.slider img {
+		width:100vw;
+		height:auto;
+	}
+	
+	/*dayservice*/
+	.dayservice .flex{
+		flex-direction: column;
+	}
+	.dayservice .flex .img{
+		width: 96%;
+	}
+	.dayservice .flex .text{
+		width: 96%;
+	}
+	.community .dayservice .flex.reverse{
+		flex-direction: column-reverse;
+	}
+	.ibc01{
+		background:linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.6)),url("../img/illusthaikei01.png");
+		background-repeat: no-repeat;
+		background-position:left 0 bottom 10%;
+		background-size: contain;
+		width: 100%;
+		background-attachment: scroll;
+	}
+
+	.ibc02{
+		background:linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.6)),url("../img/illusthaikei02.png");
+		background-repeat: no-repeat;
+		background-position:left 0 bottom 10%;
+		background-size: contain;
+		width: 100%;
+		background-attachment: scroll;
+	}
+	.Content .content .menu{
+		width:calc(90% / 2);
+	}
+	
+	
+	
+	/*contact
+	.contact .flex{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.contact .flex .contact02{
+		margin-bottom: 10px;
+	}
+	*/
+
+}
+
+@media (max-width: 750px){
+	.Content .content .menu{
+		width:calc(90% / 1);
+	}
+}
+
+@media (max-width: 450px){
+	.topslider .text h2{
+		font-size: 1em;
+	}
+	.footer .logo{
+		margin: 0 auto;
+	}
+	.footer .btntel{
+		text-align: center;
+	}
+	
+}
